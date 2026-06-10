@@ -12,11 +12,7 @@ export default function Header() {
     <header className="site-header" data-header>
       <div className="container nav-shell">
         <Link className="brand" href="/" aria-label={`${siteConfig.name} startsida`}>
-          <span className="brand-mark">T</span>
-          <span>
-            <strong>{siteConfig.name}</strong>
-            <small>Dalarna Taxi</small>
-          </span>
+          <img className="brand-logo" src="/assets/img/logo.svg" alt={siteConfig.name} width="168" height="84" />
         </Link>
         <button className="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
           <span></span>

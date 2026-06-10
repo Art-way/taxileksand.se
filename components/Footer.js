@@ -7,11 +7,7 @@ export default function Footer() {
       <div className="container footer-grid">
         <div>
           <Link className="brand brand--footer" href="/">
-            <span className="brand-mark">T</span>
-            <span>
-              <strong>{siteConfig.name}</strong>
-              <small>Dalarna Taxi</small>
-            </span>
+            <img className="brand-logo brand-logo--footer" src="/assets/img/logo.svg" alt={siteConfig.name} width="210" height="105" />
           </Link>
           <p>{siteConfig.name} erbjuder trygga taxiresor i {siteConfig.city} och Dalarna. Ring direkt eller boka online.</p>
         </div>

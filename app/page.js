@@ -45,8 +45,12 @@ export default function Home() {
             <h2>Trygg och smidig taxi i {siteConfig.city}</h2>
             <p>{siteConfig.about}</p>
             <div className="image-pair">
-              <img src="/assets/img/service-train.webp" alt={`Taxi service i ${siteConfig.city}`} width="750" height="500" loading="lazy" />
-              <img src="/assets/img/taxi-interior.webp" alt="Bekväm taxiresa i Dalarna" width="750" height="500" loading="lazy" />
+              <span className="photo-frame">
+                <img src="/assets/img/service-train.webp" alt={`Taxi service i ${siteConfig.city}`} width="750" height="500" loading="lazy" />
+              </span>
+              <span className="photo-frame">
+                <img src="/assets/img/taxi-interior.webp" alt="Bekväm taxiresa i Dalarna" width="750" height="500" loading="lazy" />
+              </span>
             </div>
           </div>
         </div>
@@ -62,21 +66,27 @@ export default function Home() {
           </div>
           <div className="service-grid">
             <article className="service-card">
-              <img src="/assets/img/service-train.webp" alt={`Tågtaxi ${siteConfig.city}`} width="750" height="500" loading="lazy" />
+              <span className="photo-frame">
+                <img src="/assets/img/service-train.webp" alt={`Tågtaxi ${siteConfig.city}`} width="750" height="500" loading="lazy" />
+              </span>
               <div>
                 <h3>Tågtaxi</h3>
                 <p>Vi hjälper dig till och från stationen med god marginal och enkel bokning.</p>
               </div>
             </article>
             <article className="service-card">
-              <img src="/assets/img/service-airport.webp" alt={`Flygtaxi ${siteConfig.city}`} width="750" height="500" loading="lazy" />
+              <span className="photo-frame">
+                <img src="/assets/img/service-airport.webp" alt={`Flygtaxi ${siteConfig.city}`} width="750" height="500" loading="lazy" />
+              </span>
               <div>
                 <h3>Flygtaxi</h3>
                 <p>Förbokad taxi till flygplatsen med tydlig hämtningstid och trygg resa.</p>
               </div>
             </article>
             <article className="service-card">
-              <img src="/assets/img/taxi-interior.webp" alt={`Företagstaxi ${siteConfig.city}`} width="750" height="500" loading="lazy" />
+              <span className="photo-frame">
+                <img src="/assets/img/taxi-interior.webp" alt={`Företagstaxi ${siteConfig.city}`} width="750" height="500" loading="lazy" />
+              </span>
               <div>
                 <h3>Företag & grupper</h3>
                 <p>Flexibla körningar för möten, personalresor, hotellgäster och små grupper.</p>
