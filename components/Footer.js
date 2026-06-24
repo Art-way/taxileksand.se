@@ -25,6 +25,8 @@ export default function Footer() {
         <div>
           <h2>Sidor</h2>
           <Link href="/">Startsida</Link>
+          <Link href="/bud-paket">Bud & Paket</Link>
+          <Link href="/taxi-midsommar-leksand">Taxi Midsommar</Link>
           <Link href="/om-oss">Om oss</Link>
           <Link href="/kontakta-oss">Kontakta oss</Link>
           <Link href="/integritetspolicy">Integritetspolicy</Link>
